@@ -31,7 +31,7 @@ do
             ping -c 4 127.0.0.1
             ;;
         3)
-            ifconfig
+            ip a
             ;;
         4)
             echo "Exiting..."
