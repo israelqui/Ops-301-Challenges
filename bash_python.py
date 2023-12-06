@@ -1,4 +1,5 @@
 import os
+import subprocess
 
 # Define variables
 command_1 = 'whoami'
@@ -16,13 +17,9 @@ print("The result of the 'whoami' command:")
 print("-------------------------------")
 print()
 
-# You could use subprocess module for capturing command output
-# Below is an example of how subprocess.run() can be used to capture output.
-# This requires using subprocess module, not os
-import subprocess
-
+# Using subprocess.run() to capture command output
 output = subprocess.run(command_1.split(), capture_output=True, text=True)
 print(output.stdout)
 
-# Similarly, you can capture and print output of other commands
+# Similarly, capturing and printing output of other commands
 # For instance, command_2 and command_3 using subprocess.run()
