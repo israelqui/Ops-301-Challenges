@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+
+# Script: Bash Python
+# Author: Israel Quirola
+# Date:
+
 import os
 import subprocess
 

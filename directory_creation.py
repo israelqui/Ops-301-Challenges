@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+# Script: Directory Creations
+# Author: Israel Quirola
+# Date:
+
 # Import libraries
 
 import os
