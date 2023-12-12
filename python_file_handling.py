@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Script: Python File Handling
+# Script: Python File Handling class 10
 # Author: Israel Quirola
 # Date: Dec 8, 2023
 
@@ -18,6 +18,7 @@ with open(file_name, 'r') as file:
     first_line = file.readline()
     print("First line of the file:", first_line)
 
+
 # Delete the file
 import os
 if os.path.exists(file_name):
@@ -25,4 +26,4 @@ if os.path.exists(file_name):
     print(f"{file_name} deleted successfully")
 else:
     print(f"{file_name} does not exist")
-    
+    file_name.close()
