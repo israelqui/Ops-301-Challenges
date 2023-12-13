@@ -33,6 +33,7 @@ destination_url = input("Enter the destination URL: ")
 
 # Prompt user to select HTTP Method
 http_method = input("Select HTTP Method (GET, POST, PUT, DELETE, HEAD, PATCH, OPTIONS): ").upper()
+# .upper() ensures that whatever the user inputs will be converted to uppercase.
 
 # Print the request details and ask for confirmation
 print(f"\nRequest about to be sent:\nURL: {destination_url}\nHTTP Method: {http_method}")
